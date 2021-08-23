@@ -28,21 +28,21 @@ async def start(client, message):
    if message.chat.type == 'private':
        await InFoJosTel.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm AnyDLBot
-I can download video or audio from Youtube, Pornhub and Xhamster. \n\nMade by @ZauteKm.
+               text="""<b>Hey There, I'Am HydraDLBot
+I can download video or audio from Youtube, Pornhub and Xhamster. \n\nMade by 😁👌.
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [
                                 [
                                         InlineKeyboardButton('🙆🏻‍♂️ Help', callback_data="help"),
-                                        InlineKeyboardButton('Feedback 👥', url='https://telegram.me/InFoJosTelGroup')
+                                        InlineKeyboardButton('⚜️ My Group ⚜️', url='https://t.me/Tg_Hydra_Galaxy')
                                     ],[
-                                        InlineKeyboardButton('👨‍🎤 Music', url='https://t.me/tgVCSets'),
-                                        InlineKeyboardButton('🤖 Bot Lists', url='https://t.me/TG_BotList/37'),
-                                        InlineKeyboardButton('Source 📢', url='https://t.me/InFoJosTel/110')
+                                        InlineKeyboardButton('🎵 Music', url='https://t.me/Tg_Hydra_Galaxy'),
+                                        InlineKeyboardButton('⚜️ Click Here ⚜️', url='https://t.me/Tg_Hydra_Galaxy'),
+                                        InlineKeyboardButton('🎬 My group 🎵', url='https://t.me/Tg_Hydra_Galaxy')
                                     ],[
-                                        InlineKeyboardButton('🔻 Subscribe Now YouTube 🔻', url='https://youtube.com/playlist?list=PLzkiTywVmsSfmhaDdWNZ5PRmmMKGTIxPJ'),
+                                        InlineKeyboardButton('🔻 Join Now 🔻', url='https://t.me/Tg_Hydra_Galaxy'),
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -63,11 +63,11 @@ Just send a Youtube, Pornhub or Xhamster video url to download it in video or au
                                         InlineKeyboardButton(
                                             "About 🙄", callback_data="about"),
                                   ],[
-                                        InlineKeyboardButton("👨‍🎤 Music", url="https://t.me/tgVCSets"),
-                                        InlineKeyboardButton("🤖 Bot Lists", url="https://t.me/TG_BotList/37"),
-                                        InlineKeyboardButton('Source 📢', url="https://t.me/InFoJosTel/110")
+                                        InlineKeyboardButton("👨‍🎤 Music", url="https://t.me/Tg_Hydra_Galaxy"),
+                                        InlineKeyboardButton("🤖 Bot Lists", url="https://t.me/Tg_Hydra_Galaxy"),
+                                        InlineKeyboardButton('Source 📢', url="https://t.me/Tg_Hydra_Galaxy")
                                     ],[
-                                        InlineKeyboardButton("🔻 Subscribe Now YouTube 🔻", url="https://youtube.com/playlist?list=PLzkiTywVmsSfmhaDdWNZ5PRmmMKGTIxPJ"),
+                                        InlineKeyboardButton("🔻 Join Now 🔻", url="https://t.me/Tg_Hydra_Galaxy"),
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -89,11 +89,11 @@ async def about(client, message):
                                         InlineKeyboardButton(
                                             "Credit ❤️", url="https://t.me/ZauteBot"),
                                   ],[
-                                        InlineKeyboardButton("👨‍🎤 Music", url="https://t.me/tgVCSets"),
-                                        InlineKeyboardButton("🤖 Bot Lists", url="https://t.me/TG_BotList/37"),
-                                        InlineKeyboardButton('Source 📢', url="https://t.me/InFoJosTel/110")
+                                        InlineKeyboardButton("👨‍🎤 Music", url="https://t.me/Tg_Hydra_Galaxy"),
+                                        InlineKeyboardButton("🤖 Bot Lists", url="https://t.me/Tg_Hydra_Galaxy"),
+                                        InlineKeyboardButton('Source 📢', url="https://t.me/Tg_Hydra_Galaxy")
                                     ],[
-                                        InlineKeyboardButton("🔻 Subscribe Now YouTube 🔻", url="https://youtube.com/playlist?list=PLzkiTywVmsSfmhaDdWNZ5PRmmMKGTIxPJ"),
+                                        InlineKeyboardButton("🔻 Join Now 🔻", url="https://t.me/Tg_Hydra_Galaxy"),
                                     ]]
                             ),        
             disable_web_page_preview=True,        
