@@ -29,7 +29,7 @@ async def start(client, message):
        await InFoJosTel.send_message(
                chat_id=message.chat.id,
                text="""<b>Hey There, I'Am HydraDLBot
-I can download video or audio from Youtube, Pornhub and Xhamster. \n\nMade by 😁👌.
+I can download video or audio from Youtube and Xhamster. \n\nMade by 😁👌.
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
