@@ -54,8 +54,8 @@ async def help(client, message):
         await InFoJosTel.send_message(
                chat_id=message.chat.id,
                text="""<b><u>AnyDLBot Help!</u></b>
-Just send a Youtube, Pornhub or Xhamster video url to download it in video or audio format!
-<b>▷Join :</b> <a href="https://t.me/InFoJosTel/110">@InFoJosTel</a>""",
+Just send a Youtube, Xhamster video url to download it in video or audio format!
+<b>▷Join :</b> <a href="https://t.me/Tg_Hydra_Galaxy">@Tg_Hydra_Galaxy</a>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -79,15 +79,15 @@ async def about(client, message):
         await InFoJosTel.send_message(
                chat_id=message.chat.id,
                text="""<b><u>About AnyDLBot!</u></b>
-<b>▷ Developer:</b> <a href="https://t.me/ZauteKm">Zaute Km</a>
-<b>▷ Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
-<b>▷Join :</b> <a href="https://t.me/InFoJosTel/110">@InFoJosTel</a>""",
+<b>▷ Developer:</b> <a href="https://t.me/Tg_Hydra_Galaxy">Zaute Km</a>
+<b>▷ Library:</b> <a href="https://t.me/Tg_Hydra_Galaxy">Pyrogram</a>
+<b>▷Join :</b> <a href="https://t.me/Tg_Hydra_Galaxy">@InFoJosTel</a>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "🔙 Back", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Credit ❤️", url="https://t.me/ZauteBot"),
+                                            "😎 No Credit", url="https://t.me/Tg_Hydra_Galaxy"),
                                   ],[
                                         InlineKeyboardButton("👨‍🎤 Music", url="https://t.me/Tg_Hydra_Galaxy"),
                                         InlineKeyboardButton("🤖 Bot Lists", url="https://t.me/Tg_Hydra_Galaxy"),
