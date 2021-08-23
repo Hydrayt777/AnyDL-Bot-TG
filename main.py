@@ -79,9 +79,9 @@ async def about(client, message):
         await InFoJosTel.send_message(
                chat_id=message.chat.id,
                text="""<b><u>About AnyDLBot!</u></b>
-<b>▷ Developer:</b> <a href="https://t.me/Tg_Hydra_Galaxy">Zaute Km</a>
-<b>▷ Library:</b> <a href="https://t.me/Tg_Hydra_Galaxy">Pyrogram</a>
-<b>▷Join :</b> <a href="https://t.me/Tg_Hydra_Galaxy">@InFoJosTel</a>""",
+<b>▷ Developer:</b> <a href="https://t.me/Tg_Hydra_Galaxy">Hydra</a>
+<b>▷ Library:</b> <a href="https://t.me/Tg_Hydra_Galaxy">Pyrogram Gta5</a>
+<b>▷Join :</b> <a href="https://t.me/Tg_Hydra_Galaxy">Telegram Manager</a>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -322,7 +322,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-(C) @ZauteKm
+(C) @Tg_Hydra_Galaxy
 """
 )
 
